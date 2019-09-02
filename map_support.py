@@ -4,7 +4,6 @@ import cv2
 dark = 4
 thr = 18
 max_val = 255
-overtime_counter = 
 
 def region_of_interest(image,corner = 'right'): 
     #get the resolution of the image

@@ -56,3 +56,25 @@ def extracting_mana(image_RGB, bottom_region):
         return get_bar(lines)
     else:
         return None
+
+def health_bar_perc(health_bar):
+    kernel = np.ones((27,27),np.uint8)
+    bar_low = (60, 200, 100)
+    bar_high = (70, 255, 255)
+    health_bar = cv2.inRange(health_bar, bar_low, bar_high)
+    health_bar = cv2.blur(health_bar, (15,9))
+    _, Thresh = cv2.threshold(health_bar,48,255,cv2.THRESH_BINARY)
+    closing = cv2.morphologyEx(Thresh, cv2.MORPH_CLOSE, kernel)
+    health_perc = int((cv2.mean(closing)[0])*100/255)
+    return health_perc
+
+def mana_bar_perc(mana_bar):
+    kernel = np.ones((27,27),np.uint8)
+    bar_low = (100, 200, 100)
+    bar_high = (106, 255, 255)
+    mana_bar = cv2.inRange(mana_bar, bar_low, bar_high)
+    mana_bar = cv2.blur(mana_bar, (15,9))
+    _, Thresh = cv2.threshold(mana_bar,48,255,cv2.THRESH_BINARY)
+    closing = cv2.morphologyEx(Thresh, cv2.MORPH_CLOSE, kernel)
+    mana_perc = int((cv2.mean(closing)[0])*100/255)
+    return mana_perc

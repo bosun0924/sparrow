@@ -226,13 +226,17 @@ while(cap.isOpened()):
 		print('Health Bar: {0}'.format(h_co))
 		print('Mana Bar: {0}'.format(m_co))
 		health_bar = hp_mana_bars_frame[h_co[1]:h_co[3], h_co[0]:h_co[2]]
+		print("Health Percentage: {0}%".format(health_bar_perc(health_bar)))
+		mana_bar = hp_mana_bars_frame[m_co[1]:m_co[3], m_co[0]:m_co[2]]
+		print("Health Percentage: {0}%".format(mana_bar_perc(mana_bar)))
+		'''
 		health_bar = cv2.inRange(health_bar, text_low, text_high)
 		health_bar = health_bar[:, 150:270]
 		helath_bar = cv2.resize(health_bar, None, fx = 7, fy = 7, interpolation = cv2.INTER_CUBIC)
 		print('Helath: {0}'.format(get_text(helath_bar, kNearest2, 150)))
 		cv2.imshow('Health Bar', health_bar)
-		cv2.imshow('Mana Bar', hp_mana_bars_region[m_co[1]:m_co[3], m_co[0]:m_co[2]])
-
+		'''
+		
 		######################################################################
 		#####################################################################
 		# 5. ExpBar and Player's Level
