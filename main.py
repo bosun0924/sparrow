@@ -11,7 +11,7 @@ from hp_mana_support import *
 	
 #############################################
 ####          Initialization             ####
-cap = cv2.VideoCapture('./test2.mp4')
+cap = cv2.VideoCapture('./test.mp4')
 map_corner = 'right'
 res = (1920, 1080)
 # kernel for some morphological operations
@@ -19,6 +19,7 @@ kernel = np.ones((5,5),np.uint8)
 
 #############################################
 #### K-NN Models for Money and Player Level Digit Recog ####
+MIN_CONTOUR_AREA = 125
 npaClassifications = np.loadtxt("classifications.txt", np.float32)                  # read in training classifications
 npaFlattenedImages = np.loadtxt("flattened_images.txt", np.float32)                 # read in training images
 npaClassifications = npaClassifications.reshape((npaClassifications.size, 1))       # reshape numpy array to 1d, necessary to pass to call to train
@@ -27,6 +28,7 @@ kNearest1.train(npaFlattenedImages, cv2.ml.ROW_SAMPLE, npaClassifications)
 
 #############################################
 #### K-NN Models for HP and Mana Recog ####
+MIN_CONTOUR_AREA = 5
 npaClassifications_hm = np.loadtxt("classifications_hm.txt", np.float32)                  # read in training classifications
 npaFlattenedImages_hm = np.loadtxt("flattened_images_hm.txt", np.float32)                 # read in training images
 npaClassifications_hm = npaClassifications.reshape((npaClassifications.size, 1))       # reshape numpy array to 1d, necessary to pass to call to train
@@ -110,6 +112,7 @@ while(cap.isOpened()):
 		#####################################################################
 		# 1. Minimap
 
+		print("__Enter main loop__")
 		map_info = display_map(frame, a,b,c,d)
         #Show the whole image with mini map in a box at the corner
 		result_image = cv2.addWeighted(frame, 0.8, map_info, 1, 1)
@@ -192,7 +195,7 @@ while(cap.isOpened()):
 			ally = cv2.inRange(ally, text_low, text_high)
 			ally = cv2.resize(ally, None, fx = 10, fy = 10, interpolation = cv2.INTER_CUBIC)
 			ally = cv2.morphologyEx(ally, cv2.MORPH_OPEN, kernel)
-			print('Ally {0} : {1} '.format(i+1, get_text(ally, kNearest2)), end = ',')
+			print('Ally {0} : {1} '.format(i+1, get_text(ally, kNearest2, MIN_CONTOUR_AREA = 125)), end = ',')
 			allies_levels.append(ally)
 		print('')
 		cv2.imshow('Ally 1', allies_levels[0])
@@ -226,7 +229,7 @@ while(cap.isOpened()):
 		health_bar = cv2.inRange(health_bar, text_low, text_high)
 		health_bar = health_bar[:, 150:270]
 		helath_bar = cv2.resize(health_bar, None, fx = 7, fy = 7, interpolation = cv2.INTER_CUBIC)
-		print('Helath: {0}'.format(get_text(helath_bar, kNearest2)))
+		print('Helath: {0}'.format(get_text(helath_bar, kNearest2, 150)))
 		cv2.imshow('Health Bar', health_bar)
 		cv2.imshow('Mana Bar', hp_mana_bars_region[m_co[1]:m_co[3], m_co[0]:m_co[2]])
 
@@ -247,14 +250,15 @@ while(cap.isOpened()):
 		lum, _, _, _ = cv2.sumElems(exp_extracting)
 	    # Calibration #
 	    # About every 8.38 lit pixels makes 1% of EXP to the next level
-		progress = int(lum/(255*8.38))
-		print('Exp Perct: {0}%'.format(progress), end = "   ")
+		progress = lum/(255*8.38)
+		progress = math.floor(progress/5)
+		print('Exp Perct: {0}/20'.format(progress), end = "   ")
 
 	    ##############_______________Exp Level_______________################
 		level_ROI = frame_gray[1043:1060, 620:640]
 		_, level_ROI = cv2.threshold(level_ROI, 127, 255, cv2.THRESH_BINARY)
 		exp_level = cv2.resize(level_ROI, None, fx = 2, fy = 2)
-		level = get_text(exp_level, kNearest1)
+		level = get_text(exp_level, kNearest1, 125)
 		print('Current Level: {0}'.format(level))
 		
 		#####################################################################
@@ -273,7 +277,7 @@ while(cap.isOpened()):
 		closing = cv2.morphologyEx(erosion, cv2.MORPH_CLOSE, kernel)
 		# Textualization
 		#cv2.imshow('money', closing)
-		money = get_text(closing, kNearest1)
+		money = get_text(closing, kNearest1, 125)
 		print('Money: {0}'.format(money))
 		#####################################################################
 	else:

@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import operator
 import os
-MIN_CONTOUR_AREA = 125
+#MIN_CONTOUR_AREA = 125
 RESIZED_IMAGE_WIDTH = 20
 RESIZED_IMAGE_HEIGHT = 30
 
@@ -26,10 +26,10 @@ class ContourWithData():
         self.intRectHeight = intHeight
 
     def checkIfContourIsValid(self):                            # this is oversimplified, for a production grade program
-        if self.fltArea < MIN_CONTOUR_AREA: return False        # much better validity checking would be necessary
+        if self.fltArea < self.MIN_CONTOUR_AREA: return False        # much better validity checking would be necessary
         return True
 
-def get_text(imgTestingNumbers, kNearest):
+def get_text(imgTestingNumbers, kNearest, MIN_CONTOUR_AREA):
     allContoursWithData = []                # declare empty lists,
     validContoursWithData = []              # we will fill these shortly
 
@@ -46,6 +46,7 @@ def get_text(imgTestingNumbers, kNearest):
 
     for npaContour in npaContours:                             # for each contour
         contourWithData = ContourWithData()                                             # instantiate a contour with data object
+        contourWithData.MIN_CONTOUR_AREA = MIN_CONTOUR_AREA
         contourWithData.npaContour = npaContour                                         # assign contour to contour with data
         contourWithData.boundingRect = cv2.boundingRect(contourWithData.npaContour)     # get the bounding rect
         contourWithData.calculateRectTopLeftPointAndWidthAndHeight()                    # get bounding rect info

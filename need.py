@@ -24,17 +24,9 @@ while(cap.isOpened()):
 		#cv2.imshow('mana', mana_bar)
 		if (frame_counter == 0):
 			longshot = health_bar
-		elif (frame_counter == 456):
+		elif (frame_counter%25 == 0):
 			longshot = np.concatenate((longshot, health_bar), axis=0)
 	else:
-
-		'''
-		plt.figure()
-		plt.imshow(health_bar)
-		plt.figure()
-		plt.imshow(mana_bar)
-		plt.show()
-		'''
 		cv2.imwrite('./health_test.png',longshot)
 		break
 	if cv2.waitKey(1) & 0xFF == ord('q'):
