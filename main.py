@@ -14,12 +14,14 @@ from hp_mana_support import *
 cap = cv2.VideoCapture('./test.mp4')
 map_corner = 'right'
 res = (1920, 1080)
+frame_cntr = 0
 # kernel for some morphological operations
 kernel = np.ones((5,5),np.uint8)
+with open("Output.txt", "w") as text_file:
+	print("________Gaming Data_______", file=text_file)
 
 #############################################
 #### K-NN Models for Money and Player Level Digit Recog ####
-MIN_CONTOUR_AREA = 125
 npaClassifications = np.loadtxt("classifications.txt", np.float32)                  # read in training classifications
 npaFlattenedImages = np.loadtxt("flattened_images.txt", np.float32)                 # read in training images
 npaClassifications = npaClassifications.reshape((npaClassifications.size, 1))       # reshape numpy array to 1d, necessary to pass to call to train
@@ -28,7 +30,6 @@ kNearest1.train(npaFlattenedImages, cv2.ml.ROW_SAMPLE, npaClassifications)
 
 #############################################
 #### K-NN Models for HP and Mana Recog ####
-MIN_CONTOUR_AREA = 5
 npaClassifications_hm = np.loadtxt("classifications_hm.txt", np.float32)                  # read in training classifications
 npaFlattenedImages_hm = np.loadtxt("flattened_images_hm.txt", np.float32)                 # read in training images
 npaClassifications_hm = npaClassifications.reshape((npaClassifications.size, 1))       # reshape numpy array to 1d, necessary to pass to call to train
@@ -40,7 +41,7 @@ kNearest2.train(npaFlattenedImages, cv2.ml.ROW_SAMPLE, npaClassifications)
 (a,b,c,d,map_corner) = initial_detecting(cap,dark,thr,max_val)
 #### Define the codec and create VideoWriter object ####
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output.avi',fourcc, 20.0, (252,252))
+out = cv2.VideoWriter('minimap.avi',fourcc, 20.0, (252,252))
 
 #############################################
 ####          Skills Initiation          ####
@@ -188,6 +189,7 @@ while(cap.isOpened()):
 		intervel = allies_coe[2]
 		#cv2.imshow('allies', allies_frame[int(allies_coe[1]-7):int(allies_coe[1]+7), int(allies_coe[0]-13):int(allies_coe[0]+13)])
 		allies_levels = []
+		allies_levels_str = []
 		text_low = (0, 0, 180)
 		text_high = (180, 60, 255)
 		for i in range(4):
@@ -195,7 +197,9 @@ while(cap.isOpened()):
 			ally = cv2.inRange(ally, text_low, text_high)
 			ally = cv2.resize(ally, None, fx = 10, fy = 10, interpolation = cv2.INTER_CUBIC)
 			ally = cv2.morphologyEx(ally, cv2.MORPH_OPEN, kernel)
-			print('Ally {0} : {1} '.format(i+1, get_text(ally, kNearest2, MIN_CONTOUR_AREA = 125)), end = ',')
+			text = get_text(ally, kNearest2, MIN_CONTOUR_AREA = 125)
+			print('Ally {0} : {1} '.format(i+1, text), end = ',')
+			allies_levels_str.append(text)
 			allies_levels.append(ally)
 		print('')
 		cv2.imshow('Ally 1', allies_levels[0])
@@ -228,7 +232,7 @@ while(cap.isOpened()):
 		health_bar = hp_mana_bars_frame[h_co[1]:h_co[3], h_co[0]:h_co[2]]
 		print("Health Percentage: {0}%".format(health_bar_perc(health_bar)))
 		mana_bar = hp_mana_bars_frame[m_co[1]:m_co[3], m_co[0]:m_co[2]]
-		print("Health Percentage: {0}%".format(mana_bar_perc(mana_bar)))
+		print("Mana Percentage: {0}%".format(mana_bar_perc(mana_bar)))
 		'''
 		health_bar = cv2.inRange(health_bar, text_low, text_high)
 		health_bar = health_bar[:, 150:270]
@@ -236,7 +240,7 @@ while(cap.isOpened()):
 		print('Helath: {0}'.format(get_text(helath_bar, kNearest2, 150)))
 		cv2.imshow('Health Bar', health_bar)
 		'''
-		
+
 		######################################################################
 		#####################################################################
 		# 5. ExpBar and Player's Level
@@ -284,6 +288,28 @@ while(cap.isOpened()):
 		money = get_text(closing, kNearest1, 125)
 		print('Money: {0}'.format(money))
 		#####################################################################
+		if (frame_cntr%30 == 0):
+			with open("Output.txt", "a") as text_file:
+				print('Second: {0}'.format((frame_cntr/30)), file=text_file)
+				print('Health Percentage: {0}%'.format(health_bar_perc(health_bar)), file=text_file)
+				print('Mana Percentage: {0}%'.format(mana_bar_perc(mana_bar)), file=text_file)
+				print('Money: {0}'.format(money), file=text_file)
+				print('Exp Perct: {0}/20'.format(progress), end = "   ", file=text_file)
+				print('Current Level: {0}'.format(level), file=text_file)
+				for skill in skills :
+					print('Skill', end=" ", file=text_file)
+					print(skill.get_name(), end = " : ", file=text_file)
+					print(skill.get_state(), end = ", Level: ", file=text_file)
+					print(str(skill.get_skill_level()), file=text_file)
+				for i in range(4):
+					print('Ally{0} : Level {1} '.format(i+1, allies_levels_str[i]), end = '// ', file=text_file)
+				print('', file=text_file)
+				print('_______________________________________', file=text_file)
+				
+				
+				
+				
+		frame_cntr += 1
 	else:
 		break
 	if cv2.waitKey(1) & 0xFF == ord('q'):

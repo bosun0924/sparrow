@@ -1,0 +1,29 @@
+________Gaming Data_______
+Second: 0.0
+Health Percentage: 56%
+Mana Percentage: 100%
+Money: 900
+Exp Perct: 7/20   Current Level: 7
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 4
+Skill W : Ready, Level: 2
+Skill E : Ready, Level: 1
+Skill R : NA, Level: 0
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 7 // Ally2 : Level 5 // Ally3 : Level 8 // Ally4 : Level 5 // 
+_______________________________________
+Second: 1.0
+Health Percentage: 56%
+Mana Percentage: 100%
+Money: 905
+Exp Perct: 8/20   Current Level: 7
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 4
+Skill W : Ready, Level: 2
+Skill E : Ready, Level: 1
+Skill R : NA, Level: 0
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 7 // Ally2 : Level 5 // Ally3 : Level 8 // Ally4 : Level 5 // 
+_______________________________________

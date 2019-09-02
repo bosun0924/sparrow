@@ -23,7 +23,9 @@ def get_bar(lines):
                 c = max(x1,x2) if (c < max(x1,x2)) else c
                 b = y1 if (b > y1) else b
                 d = y1 if (d < y1) else d
-    return [a,b,c,d]
+        return [a,b,c,d]
+    else:
+        return None
 
 def extracting_health(image_RGB, bottom_region):
     #setting green health bar binning parameters
