@@ -1,1212 +1,253 @@
 ________Gaming Data_______
-minimap: 1655, 814, 1907, 1066
 Second: 0.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 34%
+Mana Percentage: 55%
+Money: 2155
+Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 1.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 34%
+Mana Percentage: 55%
+Money: 2161
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 2.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 35%
+Mana Percentage: 57%
+Money: 2169
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 3.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 35%
+Mana Percentage: 58%
+Money: 2180
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 4.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 35%
+Mana Percentage: 59%
+Money: 2186
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 5.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 36%
+Mana Percentage: 62%
+Money: 2192
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 6.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 36%
+Mana Percentage: 63%
+Money: 2200
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 7.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 36%
+Mana Percentage: 63%
+Money: 2259
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 8.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 36%
+Mana Percentage: 64%
+Money: 2266
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 9.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 37%
+Mana Percentage: 65%
+Money: 2276
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 10.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 37%
+Mana Percentage: 66%
+Money: 2283
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
 Second: 11.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 37%
+Mana Percentage: 67%
+Money: 2292
+Exp Perct: 16/20   Current Level: 10
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 1655, 814, 1907, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
 Second: 12.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 42%
+Mana Percentage: 63%
+Money: 2302
+Exp Perct: 0/20   Current Level: 11
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Cooling, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
 Second: 13.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 41%
+Mana Percentage: 64%
+Money: 2362
+Exp Perct: 2/20   Current Level: 11
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
 Second: 14.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 42%
+Mana Percentage: 65%
+Money: 2373
+Exp Perct: 2/20   Current Level: 11
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
 Second: 15.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 33%
+Mana Percentage: 66%
+Money: 2384
+Exp Perct: 2/20   Current Level: 11
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
 Second: 16.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
+Health Percentage: 27%
+Mana Percentage: 56%
+Money: 2394
+Exp Perct: 2/20   Current Level: 11
 Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
+Skill Q : Cooling, Level: 5
+Skill W : Cooling, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
 Skill D : Ready, Level: None
 Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
 Second: 17.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
+Health Percentage: 0%
+Mana Percentage: 0%
+Money: 2503
+Exp Perct: 4/20   Current Level: 11
+Skill 0 : Cooling, Level: None
+Skill Q : Cooling, Level: 5
+Skill W : Cooling, Level: 3
+Skill E : Cooling, Level: 1
+Skill R : Cooling, Level: 1
+Skill D : Cooling, Level: None
+Skill F : Cooling, Level: None
+Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-Second: 18.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-Second: 19.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-Second: 20.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 264, 814, 13, 1066
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-Second: 21.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-Second: 22.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-Second: 23.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 0/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-Second: 24.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 2/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-Second: 25.0
-Health Percentage: 99%
-Mana Percentage: 100%
-Money: 0
-Exp Perct: 2/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-Second: 26.0
-Health Percentage: 99%
-Mana Percentage: 92%
-Money: 0
-Exp Perct: 5/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Cooling, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-Second: 27.0
-Health Percentage: 99%
-Mana Percentage: 93%
-Money: 1
-Exp Perct: 6/20   Current Level: 1
-Skill 0 : Ready, Level: None
-Skill Q : Cooling, Level: 1
-Skill W : NA, Level: 0
-Skill E : NA, Level: 0
-Skill R : NA, Level: 0
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 1 // Ally2 : Level 1 // Ally3 : Level 1 // Ally4 : Level 1 // 
-_______________________________________
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069
-minimap: 199, 881, 9, 1069

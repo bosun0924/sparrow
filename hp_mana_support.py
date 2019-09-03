@@ -67,7 +67,7 @@ def health_bar_perc(health_bar):
     health_bar = cv2.blur(health_bar, (15,9))
     _, Thresh = cv2.threshold(health_bar,48,255,cv2.THRESH_BINARY)
     closing = cv2.morphologyEx(Thresh, cv2.MORPH_CLOSE, kernel)
-    health_perc = int((cv2.mean(closing)[0])*100/255)
+    health_perc = round((cv2.mean(closing)[0])*100/255)
     return health_perc
 
 def mana_bar_perc(mana_bar):
@@ -78,5 +78,5 @@ def mana_bar_perc(mana_bar):
     mana_bar = cv2.blur(mana_bar, (15,9))
     _, Thresh = cv2.threshold(mana_bar,48,255,cv2.THRESH_BINARY)
     closing = cv2.morphologyEx(Thresh, cv2.MORPH_CLOSE, kernel)
-    mana_perc = int((cv2.mean(closing)[0])*100/255)
+    mana_perc = round((cv2.mean(closing)[0])*100/255)
     return mana_perc

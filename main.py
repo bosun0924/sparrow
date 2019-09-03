@@ -11,7 +11,7 @@ from hp_mana_support import *
 	
 #############################################
 ####          Initialization             ####
-cap = cv2.VideoCapture('./check.mp4')
+cap = cv2.VideoCapture('./test1.mp4')
 map_corner = 'right'
 res = (1920, 1080)
 frame_cntr = 0
@@ -97,9 +97,9 @@ skills = [ skill_0, skill_Q, skill_W, skill_E, skill_R, skill_D, skill_F]
 #spotting on the bottom region
 hp_mana_bars_region = frame_hsv[1020:1080, 665:1110]
 h_co = extracting_health(frame, hp_mana_bars_region)
-#h_co = [17,8,432,25]
+#h_co = [17,8,430,25] # When the recording 1080p
 m_co = extracting_mana(frame, hp_mana_bars_region)
-
+#m_co = [17,30,430,45] # When the recording 1080p
 #############################################
 ####              Main Loop              ####
 print("__Enter main loop__")
@@ -109,7 +109,6 @@ while(cap.isOpened()):
 		# 0. Prepair
 		frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 		frame_hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-
 		######################################################################
 		#####################################################################
 		# 1. Minimap
@@ -134,8 +133,8 @@ while(cap.isOpened()):
 
 		(a1,b1,c1,d1) = capture_map(cap,map_corner)
 		new_centre = [int((a1+c1)/2),int((b1+d1)/2)]
-		print(a1,b1,c1,d1)
-		print('Minimap Centre Location: {}'.format((a,b,c,d)))
+		#print(a1,b1,c1,d1)
+		#print('Minimap Centre Location: {}'.format((a,b,c,d)))
 		dx = abs(box_centre[0]-new_centre[0])
 		dy = abs(box_centre[1]-new_centre[1])
 		if (new_centre != [0,0]):
@@ -148,7 +147,7 @@ while(cap.isOpened()):
 							[a,b,c,d]=[a1,b1,c1,d1]
 				else:
 					map_corner = 'left'
-					print('changed to left')
+					print('Minimap changed to left')
 					(a,b,c,d) = capture_map(cap,map_corner)
 
 			elif (map_corner=='left'):
@@ -160,7 +159,7 @@ while(cap.isOpened()):
 							[a,b,c,d]=[a1,b1,c1,d1]
 				else:
 					map_corner = 'right'
-					print('changed to right')
+					print('Minimap changed to right')
 					(a,b,c,d) = capture_map(cap,map_corner) 
 		else: break
 		######################################################################
@@ -170,7 +169,7 @@ while(cap.isOpened()):
 		# The Allies' heads move with the minimap
 		# The locations of their heads have a linear relationship with the 
 		# minimap's location (a,b,c,d), and the minimap size percentage
-		
+
 		mini_map = [a,b,c,d]
 		if (mini_map[0]>960):# if map on the right
 			allies_frame = frame_hsv[int(mini_map[1]- (mini_map[2]-mini_map[0])*0.38):mini_map[1],mini_map[0]:1920]
@@ -180,7 +179,7 @@ while(cap.isOpened()):
 			al_levels.append(miniMap_size)
 			# Regression Returns Allies Levels
 			allies_coe = al_level_coe(al_levels)
-			print(allies_coe)
+			#print(allies_coe)
 			intervel = allies_coe[2]
 		else:# if map on the left
 			allies_frame = frame_hsv[int(mini_map[1]- (mini_map[0]-mini_map[2])*0.38):mini_map[1],0:mini_map[0]]
@@ -190,7 +189,7 @@ while(cap.isOpened()):
 			al_levels.append(miniMap_size)
 			# Regression Returns Allies Levels
 			allies_coe = al_level_coe_left(al_levels)
-			print(allies_coe)
+			#print(allies_coe)
 			intervel = allies_coe[2]
 		# 
 		allies_levels = []
@@ -207,12 +206,12 @@ while(cap.isOpened()):
 			allies_levels_str.append(text)
 			allies_levels.append(ally)
 		print('')
-		print(allies_levels_str)
+		''' Shows the levels of your allies
 		cv2.imshow('Ally 1', allies_levels[0])
 		cv2.imshow('Ally 2', allies_levels[1])
 		cv2.imshow('Ally 3', allies_levels[2])
 		cv2.imshow('Ally 4', allies_levels[3])
-	
+		'''
 		######################################################################
 		#####################################################################
 		# 3. Skills States and Levels
@@ -233,8 +232,8 @@ while(cap.isOpened()):
 		
 		# 4. HP and Mana Bars
 		hp_mana_bars_frame = frame_hsv[1020:1080, 665:1110]
-		print('Health Bar: {0}'.format(h_co))
-		print('Mana Bar: {0}'.format(m_co))
+		#print('Health Bar: {0}'.format(h_co))
+		#print('Mana Bar: {0}'.format(m_co))
 		health_bar = hp_mana_bars_frame[h_co[1]:h_co[3], h_co[0]:h_co[2]]
 		print("Health Percentage: {0}%".format(health_bar_perc(health_bar)))
 		mana_bar = hp_mana_bars_frame[m_co[1]:m_co[3], m_co[0]:m_co[2]]
@@ -263,8 +262,8 @@ while(cap.isOpened()):
 	    # Get the sum of all the lit pixels(255 each)
 		lum, _, _, _ = cv2.sumElems(exp_extracting)
 	    # Calibration #
-	    # About every 8.38 lit pixels makes 1% of EXP to the next level
-		progress = lum/(255*8.38)
+	    # About every 8 lit pixels makes 1% of EXP to the next level
+		progress = lum/(255*8)
 		progress = math.floor(progress/5)
 		print('Exp Perct: {0}/20'.format(progress), end = "   ")
 
