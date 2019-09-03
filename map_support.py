@@ -130,7 +130,6 @@ def initial_detecting(cap,dark,thr,max_val,map_corner = 'right',foundMap = False
     while (foundMap==False):
         for i in range(21):
             map_coord_stack[i] = capture_map(cap,map_corner)
-        #print (map_coord_stack)
         #getting the initial map coordinates
         a = np.argmax(np.bincount(map_coord_stack[:,0]))
         b = np.argmax(np.bincount(map_coord_stack[:,1]))
@@ -138,7 +137,7 @@ def initial_detecting(cap,dark,thr,max_val,map_corner = 'right',foundMap = False
         d = np.argmax(np.bincount(map_coord_stack[:,3]))
         minimap = miniMap(a,b,c,d)
         box_centre = minimap.get_centre()
-        print('Minimap Centre Location: '.format(box_centre))
+        print('Minimap Centre Location: {0}'.format(box_centre))
         if (map_corner=='right')and(box_centre[0]>1770)and(box_centre[0]<1830)and (box_centre[1]>900):
             foudnMap = True
             break

@@ -11,7 +11,7 @@ from hp_mana_support import *
 	
 #############################################
 ####          Initialization             ####
-cap = cv2.VideoCapture('./test.mp4')
+cap = cv2.VideoCapture('./check.mp4')
 map_corner = 'right'
 res = (1920, 1080)
 frame_cntr = 0
@@ -96,12 +96,13 @@ skills = [ skill_0, skill_Q, skill_W, skill_E, skill_R, skill_D, skill_F]
 ####       HP MANA Bars Initiation       ####
 #spotting on the bottom region
 hp_mana_bars_region = frame_hsv[1020:1080, 665:1110]
-#h_co = extracting_health(frame, hp_mana_bars_region)
-h_co = [17,8,432,25]
+h_co = extracting_health(frame, hp_mana_bars_region)
+#h_co = [17,8,432,25]
 m_co = extracting_mana(frame, hp_mana_bars_region)
 
 #############################################
 ####              Main Loop              ####
+print("__Enter main loop__")
 while(cap.isOpened()):
 	ret, frame = cap.read()
 	if ret == True:
@@ -112,8 +113,6 @@ while(cap.isOpened()):
 		######################################################################
 		#####################################################################
 		# 1. Minimap
-
-		print("__Enter main loop__")
 		map_info = display_map(frame, a,b,c,d)
         #Show the whole image with mini map in a box at the corner
 		result_image = cv2.addWeighted(frame, 0.8, map_info, 1, 1)
@@ -135,13 +134,13 @@ while(cap.isOpened()):
 
 		(a1,b1,c1,d1) = capture_map(cap,map_corner)
 		new_centre = [int((a1+c1)/2),int((b1+d1)/2)]
-		#print(a1,b1,c1,d1)
+		print(a1,b1,c1,d1)
 		print('Minimap Centre Location: {}'.format((a,b,c,d)))
 		dx = abs(box_centre[0]-new_centre[0])
 		dy = abs(box_centre[1]-new_centre[1])
 		if (new_centre != [0,0]):
 			if (map_corner=='right'):
-				if (new_centre[0]>1770)and(new_centre[0]<1830)and(box_centre[1]>900):
+				if (new_centre[0]>=1770)and(new_centre[0]<=1830)and(box_centre[1]>=900):
                 #image stabilization
                 #if the new centre is significantly away from the old one(2 pixels horizontal and verdical)
 					if ((dx > 4) and (dy > 4)):
@@ -153,7 +152,7 @@ while(cap.isOpened()):
 					(a,b,c,d) = capture_map(cap,map_corner)
 
 			elif (map_corner=='left'):
-				if (new_centre[0]>105)and(new_centre[0]<150)and (new_centre[1]>900):
+				if (new_centre[0]>=102)and(new_centre[0]<=147)and (new_centre[1]>=900):
                     #image stabilization
                     #if the new centre is significantly away from the old one(2 pixels horizontal and verdical)
 					if ((dx > 4) and (dy > 4)):
@@ -164,7 +163,6 @@ while(cap.isOpened()):
 					print('changed to right')
 					(a,b,c,d) = capture_map(cap,map_corner) 
 		else: break
-		
 		######################################################################
 		#####################################################################
 		# 2. Allies Level
@@ -172,22 +170,29 @@ while(cap.isOpened()):
 		# The Allies' heads move with the minimap
 		# The locations of their heads have a linear relationship with the 
 		# minimap's location (a,b,c,d), and the minimap size percentage
+		
 		mini_map = [a,b,c,d]
 		if (mini_map[0]>960):# if map on the right
 			allies_frame = frame_hsv[int(mini_map[1]- (mini_map[2]-mini_map[0])*0.38):mini_map[1],mini_map[0]:1920]
+			# Mini map percentage
+			miniMap_size = (((mini_map[3]-mini_map[1])-190)/62)*100
+			al_levels = mini_map
+			al_levels.append(miniMap_size)
+			# Regression Returns Allies Levels
+			allies_coe = al_level_coe(al_levels)
+			print(allies_coe)
+			intervel = allies_coe[2]
 		else:# if map on the left
 			allies_frame = frame_hsv[int(mini_map[1]- (mini_map[0]-mini_map[2])*0.38):mini_map[1],0:mini_map[0]]
-		## Get the allies' levels
-
-		# Mini map percentage
-		miniMap_size = (((mini_map[3]-mini_map[1])-190)/62)*100
-		al_levels = mini_map
-		al_levels.append(miniMap_size)
-		# Regression Returns Allies Levels
-		allies_coe = al_level_coe(al_levels)
-		print(allies_coe)
-		intervel = allies_coe[2]
-		#cv2.imshow('allies', allies_frame[int(allies_coe[1]-7):int(allies_coe[1]+7), int(allies_coe[0]-13):int(allies_coe[0]+13)])
+			# Mini map percentage
+			miniMap_size = (((mini_map[3]-mini_map[1])-190)/62)*100
+			al_levels = mini_map
+			al_levels.append(miniMap_size)
+			# Regression Returns Allies Levels
+			allies_coe = al_level_coe_left(al_levels)
+			print(allies_coe)
+			intervel = allies_coe[2]
+		# 
 		allies_levels = []
 		allies_levels_str = []
 		text_low = (0, 0, 180)
@@ -202,11 +207,12 @@ while(cap.isOpened()):
 			allies_levels_str.append(text)
 			allies_levels.append(ally)
 		print('')
+		print(allies_levels_str)
 		cv2.imshow('Ally 1', allies_levels[0])
 		cv2.imshow('Ally 2', allies_levels[1])
 		cv2.imshow('Ally 3', allies_levels[2])
 		cv2.imshow('Ally 4', allies_levels[3])
-
+	
 		######################################################################
 		#####################################################################
 		# 3. Skills States and Levels
@@ -288,6 +294,10 @@ while(cap.isOpened()):
 		money = get_text(closing, kNearest1, 125)
 		print('Money: {0}'.format(money))
 		#####################################################################
+		#####################################################################
+		#####################################################################
+		#####################################################################
+		###########################  Writing  ###############################
 		if (frame_cntr%30 == 0):
 			with open("Output.txt", "a") as text_file:
 				print('Second: {0}'.format((frame_cntr/30)), file=text_file)
@@ -305,10 +315,7 @@ while(cap.isOpened()):
 					print('Ally{0} : Level {1} '.format(i+1, allies_levels_str[i]), end = '// ', file=text_file)
 				print('', file=text_file)
 				print('_______________________________________', file=text_file)
-				
-				
-				
-				
+	
 		frame_cntr += 1
 	else:
 		break
