@@ -12,7 +12,6 @@ from hp_mana_support import *
 #############################################
 ####          Initialization             ####
 cap = cv2.VideoCapture('./test1.mp4')
-fps = cap.get(cv2.CAP_PROP_FPS)
 map_corner = 'right'
 res = (1920, 1080)
 frame_cntr = 0
@@ -108,6 +107,7 @@ while(cap.isOpened()):
 	ret, frame = cap.read()
 	if ret == True:
 		# 0. Prepair
+		frame_cntr += 1
 		frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 		frame_hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 		######################################################################
@@ -299,8 +299,9 @@ while(cap.isOpened()):
 		#####################################################################
 		###########################  Writing  ###############################
 		if (frame_cntr%(10) == 0): # Every 10 frames
+			time_stamp = round((cap.get(cv2.CAP_PROP_POS_MSEC))/1000, 1)
 			with open("Output.txt", "a") as text_file:
-				print('Frame: {0}'.format((frame_cntr)), file=text_file)
+				print('Frame: {0}'.format(cap.get(cv2.CAP_PROP_POS_MSEC)), file=text_file)
 				print('Health Percentage: {0}%'.format(health_bar_perc(health_bar)), file=text_file)
 				print('Mana Percentage: {0}%'.format(mana_bar_perc(mana_bar)), file=text_file)
 				print('Money: {0}'.format(money), file=text_file)
@@ -314,12 +315,10 @@ while(cap.isOpened()):
 				for i in range(4):
 					print('Ally{0} : Level {1} '.format(i+1, allies_levels_str[i]), end = '// ', file=text_file)
 				print('', file=text_file)
-				print('_______________________________________', file=text_file)
-		frame_cntr += 1
+				print('_______________________________________', file=text_file)	
 	else:
 		break
 	if cv2.waitKey(1) & 0xFF == ord('q'):
 	   	break
 cap.release()
 cv2.destroyAllWindows() 
-print("FPS: {0}".format(fps))
