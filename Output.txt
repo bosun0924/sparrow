@@ -29,8 +29,8 @@ Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 //
 _______________________________________
 Second: 1.0
 Health Percentage: 100%
-Mana Percentage: 83%
-Money: 2161
+Mana Percentage: 84%
+Money: 2158
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -43,8 +43,8 @@ Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 //
 _______________________________________
 Second: 1.5
 Health Percentage: 100%
-Mana Percentage: 86%
-Money: 2166
+Mana Percentage: 83%
+Money: 2161
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -58,7 +58,7 @@ _______________________________________
 Second: 2.0
 Health Percentage: 100%
 Mana Percentage: 86%
-Money: 2169
+Money: 2164
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -72,7 +72,7 @@ _______________________________________
 Second: 2.5
 Health Percentage: 100%
 Mana Percentage: 86%
-Money: 2175
+Money: 2167
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -84,6 +84,48 @@ Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
 Second: 3.0
+Health Percentage: 100%
+Mana Percentage: 86%
+Money: 2169
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 3.5
+Health Percentage: 100%
+Mana Percentage: 86%
+Money: 2174
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 4.0
+Health Percentage: 100%
+Mana Percentage: 87%
+Money: 2177
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 4.5
 Health Percentage: 100%
 Mana Percentage: 87%
 Money: 2180
@@ -97,10 +139,10 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 3.5
+Second: 5.0
 Health Percentage: 100%
 Mana Percentage: 87%
-Money: 2183
+Money: 2181
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -111,7 +153,21 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 4.0
+Second: 5.5
+Health Percentage: 100%
+Mana Percentage: 88%
+Money: 2184
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 6.0
 Health Percentage: 100%
 Mana Percentage: 89%
 Money: 2186
@@ -125,7 +181,21 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 4.5
+Second: 6.5
+Health Percentage: 100%
+Mana Percentage: 90%
+Money: 2187
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 7.0
 Health Percentage: 100%
 Mana Percentage: 92%
 Money: 2190
@@ -139,7 +209,7 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 5.0
+Second: 7.5
 Health Percentage: 100%
 Mana Percentage: 93%
 Money: 2192
@@ -153,10 +223,10 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 5.5
+Second: 8.0
 Health Percentage: 100%
-Mana Percentage: 94%
-Money: 2195
+Mana Percentage: 93%
+Money: 2193
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -167,7 +237,21 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 6.0
+Second: 8.5
+Health Percentage: 100%
+Mana Percentage: 94%
+Money: 2197
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 9.0
 Health Percentage: 100%
 Mana Percentage: 94%
 Money: 2200
@@ -181,94 +265,10 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 6.5
-Health Percentage: 100%
-Mana Percentage: 95%
-Money: 2254
-Exp Perct: 17/20   Current Level: 10
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 5
-Skill W : Ready, Level: 3
-Skill E : Ready, Level: 1
-Skill R : Ready, Level: 1
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
-_______________________________________
-Second: 7.0
-Health Percentage: 100%
-Mana Percentage: 100%
-Money: 2259
-Exp Perct: 17/20   Current Level: 10
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 5
-Skill W : Ready, Level: 3
-Skill E : Ready, Level: 1
-Skill R : Ready, Level: 1
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
-_______________________________________
-Second: 7.5
-Health Percentage: 100%
-Mana Percentage: 100%
-Money: 2263
-Exp Perct: 17/20   Current Level: 10
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 5
-Skill W : Ready, Level: 3
-Skill E : Ready, Level: 1
-Skill R : Ready, Level: 1
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
-_______________________________________
-Second: 8.0
-Health Percentage: 100%
-Mana Percentage: 100%
-Money: 2266
-Exp Perct: 17/20   Current Level: 10
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 5
-Skill W : Ready, Level: 3
-Skill E : Ready, Level: 1
-Skill R : Ready, Level: 1
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
-_______________________________________
-Second: 8.5
-Health Percentage: 100%
-Mana Percentage: 100%
-Money: 2271
-Exp Perct: 17/20   Current Level: 10
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 5
-Skill W : Ready, Level: 3
-Skill E : Ready, Level: 1
-Skill R : Ready, Level: 1
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
-_______________________________________
-Second: 9.0
-Health Percentage: 100%
-Mana Percentage: 100%
-Money: 2276
-Exp Perct: 17/20   Current Level: 10
-Skill 0 : Ready, Level: None
-Skill Q : Ready, Level: 5
-Skill W : Ready, Level: 3
-Skill E : Ready, Level: 1
-Skill R : Ready, Level: 1
-Skill D : Ready, Level: None
-Skill F : Ready, Level: None
-Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
-_______________________________________
 Second: 9.5
 Health Percentage: 100%
-Mana Percentage: 100%
-Money: 2280
+Mana Percentage: 95%
+Money: 2203
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -281,8 +281,8 @@ Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 //
 _______________________________________
 Second: 10.0
 Health Percentage: 100%
-Mana Percentage: 100%
-Money: 2283
+Mana Percentage: 95%
+Money: 2256
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -296,7 +296,7 @@ _______________________________________
 Second: 10.5
 Health Percentage: 100%
 Mana Percentage: 100%
-Money: 2288
+Money: 2259
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -310,7 +310,7 @@ _______________________________________
 Second: 11.0
 Health Percentage: 100%
 Mana Percentage: 100%
-Money: 2292
+Money: 2262
 Exp Perct: 17/20   Current Level: 10
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -323,9 +323,177 @@ Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 //
 _______________________________________
 Second: 11.5
 Health Percentage: 100%
-Mana Percentage: 87%
-Money: 2297
-Exp Perct: 19/20   Current Level: 10
+Mana Percentage: 100%
+Money: 2263
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 12.0
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2266
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 12.5
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2269
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 13.0
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2273
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 13.5
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2276
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 14.0
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2279
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 14.5
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2280
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 15.0
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2283
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 15.5
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2286
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 16.0
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2291
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 16.5
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2292
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 17.0
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2295
+Exp Perct: 17/20   Current Level: 10
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 17.5
+Health Percentage: 100%
+Mana Percentage: 95%
+Money: 2299
+Exp Perct: 0/20   Current Level: 11
 Skill 0 : Ready, Level: None
 Skill Q : Cooling, Level: 5
 Skill W : Ready, Level: 3
@@ -335,7 +503,7 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 12.0
+Second: 18.0
 Health Percentage: 100%
 Mana Percentage: 95%
 Money: 2302
@@ -349,10 +517,24 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 12.5
+Second: 18.5
 Health Percentage: 100%
 Mana Percentage: 100%
-Money: 2306
+Money: 2305
+Exp Perct: 1/20   Current Level: 11
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 9 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 19.0
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2308
 Exp Perct: 1/20   Current Level: 11
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -363,7 +545,7 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 13.0
+Second: 19.5
 Health Percentage: 100%
 Mana Percentage: 100%
 Money: 2362
@@ -377,10 +559,10 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 13.5
+Second: 20.0
 Health Percentage: 100%
 Mana Percentage: 100%
-Money: 2367
+Money: 2365
 Exp Perct: 2/20   Current Level: 11
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -391,7 +573,21 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 14.0
+Second: 20.5
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2368
+Exp Perct: 2/20   Current Level: 11
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 21.0
 Health Percentage: 100%
 Mana Percentage: 100%
 Money: 2373
@@ -405,10 +601,10 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 14.5
+Second: 21.5
 Health Percentage: 100%
 Mana Percentage: 100%
-Money: 2378
+Money: 2376
 Exp Perct: 2/20   Current Level: 11
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -419,7 +615,21 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 15.0
+Second: 22.0
+Health Percentage: 100%
+Mana Percentage: 100%
+Money: 2379
+Exp Perct: 2/20   Current Level: 11
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 22.5
 Health Percentage: 100%
 Mana Percentage: 100%
 Money: 2384
@@ -433,10 +643,10 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 15.5
+Second: 23.0
 Health Percentage: 100%
 Mana Percentage: 100%
-Money: 2388
+Money: 2387
 Exp Perct: 2/20   Current Level: 11
 Skill 0 : Ready, Level: None
 Skill Q : Ready, Level: 5
@@ -447,7 +657,21 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 16.0
+Second: 23.5
+Health Percentage: 100%
+Mana Percentage: 94%
+Money: 2391
+Exp Perct: 2/20   Current Level: 11
+Skill 0 : Ready, Level: None
+Skill Q : Cooling, Level: 5
+Skill W : Ready, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 24.0
 Health Percentage: 82%
 Mana Percentage: 84%
 Money: 2394
@@ -461,10 +685,24 @@ Skill D : Ready, Level: None
 Skill F : Ready, Level: None
 Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 16.5
+Second: 24.5
+Health Percentage: 41%
+Mana Percentage: 82%
+Money: 2397
+Exp Perct: 2/20   Current Level: 11
+Skill 0 : Ready, Level: None
+Skill Q : Ready, Level: 5
+Skill W : Cooling, Level: 3
+Skill E : Ready, Level: 1
+Skill R : Ready, Level: 1
+Skill D : Ready, Level: None
+Skill F : Ready, Level: None
+Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
+_______________________________________
+Second: 25.0
 Health Percentage: 0%
 Mana Percentage: 0%
-Money: 2499
+Money: 2500
 Exp Perct: 4/20   Current Level: 11
 Skill 0 : Cooling, Level: None
 Skill Q : Cooling, Level: 5
@@ -475,7 +713,7 @@ Skill D : Cooling, Level: None
 Skill F : Cooling, Level: None
 Ally1 : Level 10 // Ally2 : Level 10 // Ally3 : Level 12 // Ally4 : Level 5 // 
 _______________________________________
-Second: 17.0
+Second: 25.5
 Health Percentage: 0%
 Mana Percentage: 0%
 Money: 2503
