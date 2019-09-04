@@ -41,7 +41,7 @@ kNearest2.train(npaFlattenedImages, cv2.ml.ROW_SAMPLE, npaClassifications)
 (a,b,c,d,map_corner) = initial_detecting(cap,dark,thr,max_val)
 #### Define the codec and create VideoWriter object ####
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('minimap.avi',fourcc, 20.0, (252,252))
+out = cv2.VideoWriter('minimap.avi',fourcc, 30.0, (252,252))
 
 #############################################
 ####          Skills Initiation          ####
@@ -264,7 +264,7 @@ while(cap.isOpened()):
 	    # Calibration #
 	    # About every 8 lit pixels makes 1% of EXP to the next level
 		progress = lum/(255*8)
-		progress = math.floor(progress/5)
+		progress = round(progress/5)
 		print('Exp Perct: {0}/20'.format(progress), end = "   ")
 
 	    ##############_______________Exp Level_______________################
@@ -297,7 +297,7 @@ while(cap.isOpened()):
 		#####################################################################
 		#####################################################################
 		###########################  Writing  ###############################
-		if (frame_cntr%30 == 0):
+		if (frame_cntr%15 == 0):
 			with open("Output.txt", "a") as text_file:
 				print('Second: {0}'.format((frame_cntr/30)), file=text_file)
 				print('Health Percentage: {0}%'.format(health_bar_perc(health_bar)), file=text_file)
